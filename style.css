@@ -1,0 +1,60 @@
+body{
+    margin-top: 50px;
+}
+
+.title{
+    background-color: powderblue;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin: 0 20px 0 20px;
+}
+
+.col-3{
+    text-align: left;
+    padding: 20px;
+}
+
+.foreCol{
+    background-color: mediumspringgreen;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#forecastTitle{
+    padding: 10px;
+}
+
+.prevCities{
+    background-color: darkseagreen;
+    padding: 10px;
+    margin: 10px;
+    width: 180px;
+}
+
+.col-9{
+    text-align: left;
+    padding: 20px;
+}
+
+#current{
+    background-color: lightcyan;
+    padding:20px ;
+    margin: 10px;
+}
+
+#searchBtn{
+    width: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+input{
+    width: 200px;
+    border-radius: 5px;
+    height: 35px;
+    padding-left: 10px;
+    margin-top: 10px;
+}
