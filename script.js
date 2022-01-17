@@ -59,8 +59,8 @@ $(document).ready(function(){
   
       function display(city){
 
-        var queryToday = "http://api.openweathermap.org/data/2.5/weather?q=" + city + "&appid=a55b7cf85fc3c4c3cb19131e3b85eade";
-        var queryForecast = "http://api.openweathermap.org/data/2.5/forecast?q=" + city + "&appid=a55b7cf85fc3c4c3cb19131e3b85eade";
+        var queryToday = "https://api.openweathermap.org/data/2.5/weather?q=" + city + "&appid=a55b7cf85fc3c4c3cb19131e3b85eade";
+        var queryForecast = "https://api.openweathermap.org/data/2.5/forecast?q=" + city + "&appid=a55b7cf85fc3c4c3cb19131e3b85eade";
         
         //console.log(city);
         var container = document.getElementById("current");
@@ -86,7 +86,7 @@ $(document).ready(function(){
           apiLat = data.coord.lat;
           apiLon = data.coord.lon;
 
-          var queryUV = "http://api.openweathermap.org/data/2.5/uvi?appid=a55b7cf85fc3c4c3cb19131e3b85eade&lat=" + apiLat + "&lon=" + apiLon;
+          var queryUV = "https://api.openweathermap.org/data/2.5/uvi?appid=a55b7cf85fc3c4c3cb19131e3b85eade&lat=" + apiLat + "&lon=" + apiLon;
 
           fetch(queryUV)
           .then((response) => {
@@ -107,7 +107,7 @@ $(document).ready(function(){
           iconImg.setAttribute("class","icons");
           var iconCode = data.weather[0].icon 
           //console.log(iconCode);
-          var iconurl = "http://openweathermap.org/img/w/" + iconCode + ".png";
+          var iconurl = "https://openweathermap.org/img/w/" + iconCode + ".png";
           iconImg.setAttribute("src", iconurl);
           cityHeader.appendChild(iconImg);
 
@@ -201,7 +201,7 @@ $(document).ready(function(){
             var iconImg1 = document.createElement("img")
             iconImg1.setAttribute("class","icons");
             var iconCode1 = foreInfo[k].weather[0].icon; 
-            var iconurl1 = "http://openweathermap.org/img/w/" + iconCode1 + ".png";
+            var iconurl1 = "https://openweathermap.org/img/w/" + iconCode1 + ".png";
             iconImg1.setAttribute("src", iconurl1);
             span.appendChild(iconImg1);
 
