@@ -2,7 +2,7 @@
   [![License used: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
   ## Description
-  This is a weather dashboard app which retrieves weather data for a city using the OpenWeather One Call API. The dashboard also shows the previously searched cities and saves all the information. 
+  This is a weather dashboard app which retrieves weather data for a city using the OpenWeather One Call API (https://openweathermap.org/api/one-call-api). The dashboard also shows the previously searched cities and saves all the information. 
 
   ## Table of Contents
   * [Usage](#usage)
