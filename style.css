@@ -28,10 +28,15 @@ body{
 }
 
 .prevCities{
-    background-color: darkseagreen;
+    background-color:cornflowerblue;
+    color: white;
+    border-radius: 5px;
     padding: 10px;
     margin: 10px;
-    width: 180px;
+    width: 85%;
+    height: 50px;
+    border: none;
+    text-transform: capitalize;
 }
 
 .col-9{
@@ -43,18 +48,29 @@ body{
     background-color: lightcyan;
     padding:20px ;
     margin: 10px;
+    
 }
 
 #searchBtn{
-    width: 200px;
+    width: 90%;
     margin-top: 20px;
     margin-bottom: 20px;
 }
 
 input{
-    width: 200px;
+    width: 90%;
     border-radius: 5px;
     height: 35px;
     padding-left: 10px;
     margin-top: 10px;
+}
+
+#searchHist{
+    text-align: left;
+}
+
+#searchCity{
+    text-align: left;
+    padding-left: 10px;
+    padding-top: 20px;
 }
